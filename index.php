@@ -14,11 +14,9 @@ ini_set('display_errors','On');
 </head>
 
 <body>
-    <div style="text-align: center;">
-        Holzspross
-    </div>
-    <H1>Holzspross</H1>
-    Hallöchen!
+    <h1 style="text-align: center;">
+        Holzspros
+    </h1>
 
     <script src="Assets/css/bootstrap.min.css"></script>
 </body>
