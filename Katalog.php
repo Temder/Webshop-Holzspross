@@ -18,7 +18,7 @@ ini_set('display_errors','On');
         <link href="styles.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="hintergrund">
     
         <h1>
             Holzspross-Katalog

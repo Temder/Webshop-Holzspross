@@ -20,4 +20,10 @@ h1 {
     color: rgb(102, 51, 0);
 }
 
-.hintergrund {}
+.hintergrund {
+    background-color: rgb(182, 174, 211);
+}
+
+.schrift {
+    color: black;
+}
