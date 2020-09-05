@@ -7,6 +7,7 @@ ini_set('display_errors','On');
 <html lang="de">
     <head>
         <title>Holzspross</title>
+        <link rel="shortcut icon" href="Bilder\cross.ico" />
         <meta charset="Utf-8">
         <link type="text/css" href="Assets/css/bootstrap.min.css">
     </head>
