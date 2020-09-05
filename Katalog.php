@@ -15,11 +15,12 @@ ini_set('display_errors','On');
         <title>Holzspross - Katalog</title>
         <link rel="shortcut icon" href="Bilder\cross.ico" />
         <meta charset="Utf-8">
+        <link href="styles.css" rel="stylesheet">
     </head>
 
     <body>
     
-        <h1 style="text-align: center;color:rgb(102, 51, 0);">
+        <h1>
             Holzspross-Katalog
         </h1>
 
