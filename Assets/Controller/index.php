@@ -18,7 +18,6 @@ ini_set('display_errors','On');
         Holzspros
     </h1>
 
-    <script src="Assets/css/bootstrap.min.css"></script>
 </body>
 
 </html>
