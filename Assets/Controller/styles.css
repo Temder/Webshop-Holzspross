@@ -1,21 +1,3 @@
-.content {
-    height: 400px;
-    width: 750px;
-    overflow: hidden;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
-}
-
-.content .images {
-    height: 100%;
-    width: 100%;
-}
-
-.images img {
-    height: 100%;
-    width: 100%;
-}
-
-
 /** Farben **/
 
 h1 {
@@ -27,21 +9,15 @@ h1 {
     background-color: rgb(182, 174, 211);
 }
 
+
+/** SLIDESHOW **/
+
 .slideshow {
     list-style-type: none;
 }
 
-
-/** SLIDESHOW **/
-
 .slideshow,
 .slideshow:after {
-    top: -16px;
-    /*Not sure why I needed this fix*/
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0px;
     z-index: 0;
 }
 
