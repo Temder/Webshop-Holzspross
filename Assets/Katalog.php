@@ -16,15 +16,37 @@ ini_set('display_errors','On');
         <link rel="shortcut icon" href="Bilder\cross.ico" />
         <meta charset="Utf-8">
         <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     </head>
 
     <body class="hintergrund">
-    
-        <h1>
-            Holzspross-Katalog
-        </h1>
 
-        <p>Hier gibt es unsere Produkte aus Holz.</p>
+        <header class="jumbotron">
+            <div class="container">
+                <h1>Holzspross-Katalog</h1>
+            </div>            
+        </header>
 
+        <h2 style="text-align: center">Hier gibt es unsere Produkte aus Holz.</h2>
+
+        <section class="container" id="products">
+            <div class="row">
+                <div class="col">
+                    <?php include 'produkt.php'?>
+                </div>
+                <div class="col">
+                    <?php include 'produkt.php'?>
+                </div>
+                <div class="col">
+                    <?php include 'produkt.php'?>
+                </div>
+                <div class="col">
+                    <?php include 'produkt.php'?>
+                </div>
+            </div>
+        </section>
+        
+
+        <script src="bootstrap.bundle.js"></script>
     </body>
 </html>
