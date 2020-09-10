@@ -18,18 +18,18 @@ ini_set('display_errors','On');
 </head>
 
 <body class="hintergrund">
-    <br/>
+    <img id="treeSide" src="Bilder/treeLeft.png">
+
+    <br/><br/><br/>
 
     <ul id="nav">
-        <li><a class="checked" href="index.php">START</a></li>
-        <li><a href="KÜCHE">KÜCHE</a></li>
-        <li><a href="SCHALEN & TELLER">SCHALEN & TELLER</a></li>
+        <li><a href="index.php">START</a></li>
+        <li><a href="">KÜCHE</a></li>
+        <li><a href="">SCHALEN & TELLER</a></li>
         <li><a href="Katalog.php">KATALOG</a></li>
     </ul>
 
-    <div style="font-size: 100px;">
-        <h1>Holzspross</h1>
-    </div>
+    <h1 style="font-size: 100px; position: relative; z-index: 3;">Holzspross</h1>
 
     <br/><br/>
 
