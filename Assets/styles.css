@@ -188,3 +188,34 @@ body {
     opacity: 0.8;
     box-shadow: 0 2px 6px #0c0c0c;
 }
+
+
+/** Navigation Bar **/
+
+#nav {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.checked) {
+    background-color: #111;
+}
+
+.checked {
+    background-color: #4CAF50;
+}
