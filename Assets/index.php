@@ -29,6 +29,8 @@ ini_set('display_errors','On');
         <li><a href="Katalog.php">KATALOG</a></li>
     </ul>
 
+    <br/><br/><br/><br/><br/>
+
     <h1 style="font-size: 100px; position: relative; z-index: 3;">Holzspross</h1>
 
     <br/><br/>

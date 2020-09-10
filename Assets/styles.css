@@ -198,13 +198,13 @@ h1 {
 /* Navigation Bar */
 
 #nav {
-    position: relative;
+    position: fixed;
     list-style-type: none;
     overflow: hidden;
     /*background-color: rgb(184, 157, 84);*/
     left: 200px;
     width: 500px;
-    z-index: 3;
+    z-index: 4;
 }
 
 li {
@@ -219,7 +219,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.checked) {
+li a:hover {
     background-color: rgb(184, 157, 84);
 }
 
