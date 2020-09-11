@@ -6,10 +6,10 @@
 }
 
 .sÜs {
+    text-align: center;
     font-size: 100px;
     color: rgb(102, 59, 15);
     position: relative;
-    left: 500px;
     z-index: 3;
 }
 
@@ -23,13 +23,16 @@
     height: 100%;
     z-index: 2;
     pointer-events: none;
-    background: url("Bilder/treeLeft.png");
 }
 
 
 /* Cursor */
 
 body {
+    cursor: url("Bilder/leafePlaceholder.png"), default;
+}
+
+a {
     cursor: url("Bilder/leafePlaceholder.png"), default;
 }
 
@@ -212,14 +215,48 @@ body {
 
 /* Navigation Bar */
 
-#nav {
+.nav {
     position: fixed;
     list-style-type: none;
     overflow: hidden;
     /*background-color: rgb(184, 157, 84);*/
     left: 200px;
     width: 500px;
+    height: 200px;
     z-index: 4;
+}
+
+.navAll {
+    position: relative;
+    padding: 14px 16px;
+    color: white;
+    height: 200px;
+    text-decoration: none;
+    z-index: 5;
+}
+
+.navA1 {
+    top: 30px;
+    left: 0px;
+}
+
+.navA2 {
+    top: 40px;
+    left: -10px;
+}
+
+.navA3 {
+    top: 20px;
+    left: 0px;
+}
+
+.navA4 {
+    top: 50px;
+    left: -10px;
+}
+
+.navAll:hover {
+    background-color: rgb(184, 157, 84);
 }
 
 li {

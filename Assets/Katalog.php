@@ -13,7 +13,7 @@ ini_set('display_errors','On');
 <html>
     <head>
         <title>Holzspross - Katalog</title>
-        <link rel="shortcut icon" href="Bilder\Terraria.jpg" />
+        <link rel="shortcut icon" href="Bilder\Terraria.ico" />
         <meta charset="Utf-8">
         <link href="styles.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
