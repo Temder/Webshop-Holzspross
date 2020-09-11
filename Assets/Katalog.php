@@ -13,7 +13,7 @@ ini_set('display_errors','On');
 <html>
     <head>
         <title>Holzspross - Katalog</title>
-        <link rel="shortcut icon" href="Bilder\cross.ico" />
+        <link rel="shortcut icon" href="Bilder\Terraria.jpg" />
         <meta charset="Utf-8">
         <link href="styles.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -23,7 +23,7 @@ ini_set('display_errors','On');
 
         <header class="jumbotron">
             <div class="container">
-                <h1>Holzspross-Katalog</h1>
+                <h1 class="kÜs">Holzspross-Katalog</h1>
             </div>            
         </header>
 

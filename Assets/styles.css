@@ -1,8 +1,16 @@
 /* Text, Farben und Bilder */
 
-h1 {
+.kÜs {
     text-align: center;
-    color: rgb(102, 51, 0);
+    color: rgb(102, 59, 15);
+}
+
+.sÜs {
+    font-size: 100px;
+    color: rgb(102, 59, 15);
+    position: relative;
+    left: 500px;
+    z-index: 3;
 }
 
 .hintergrund {
@@ -16,6 +24,13 @@ h1 {
     z-index: 2;
     pointer-events: none;
     background: url("Bilder/treeLeft.png");
+}
+
+
+/* Cursor */
+
+body {
+    cursor: url("Bilder/leafePlaceholder.png"), default;
 }
 
 
