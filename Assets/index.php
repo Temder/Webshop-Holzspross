@@ -8,30 +8,30 @@ ini_set('display_errors','On');
 
 <head>
     <title>Holzspross</title>
-    <link rel="shortcut icon" href="\Bilder\cross.ico" />
+    <link rel="shortcut icon" href="Bilder/Terraria.ico" />
     <meta charset="Utf-8">
     <link type="text/css" href="Assets/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 </head>
 
 <body class="hintergrund">
     <img id="treeSide" src="Bilder/treeLeft.png">
 
-    <br/><br/><br/>
+    <br/><br/>
 
-    <ul id="nav">
-        <li><a href="index.php">START</a></li>
-        <li><a href="">KÜCHE</a></li>
-        <li><a href="">SCHALEN & TELLER</a></li>
-        <li><a href="Katalog.php">KATALOG</a></li>
-    </ul>
+    <div class="nav">
+        <a class="navA1 navAll" href="index.php">START</a>
+        <a class="navA2 navAll" href="">KÜCHE</a>
+        <a class="navA3 navAll" href="">SCHALEN & TELLER</a>
+        <a class="navA4 navAll" href="Katalog.php">KATALOG</a>
+    </div>
 
-    <br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/>
 
-    <h1 style="font-size: 100px; position: relative; z-index: 3;">Holzspross</h1>
+    <h1 class="sÜs">Holzspross</h1>
 
     <br/><br/>
 
@@ -48,9 +48,9 @@ ini_set('display_errors','On');
                 <h1 class="title"><span class="title-text">Mountain</span></h1>
             </li>
             <li class="slide">
-                <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/ocean-left.jpg" /></div>
-                <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/ocean-right.jpg" /></div>
-                <h1 class="title"><span class="title-text">Ocean</span></h1>
+                <div class="slide-partial slide-left"><img src="Bilder/H3Left.jpg" /></div>
+                <div class="slide-partial slide-right"><img src="Bilder/H3Right.jpg" /></div>
+                <h1 class="title"><span class="title-text">Holzspross</span></h1>
             </li>
             <li class="slide">
                 <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/canyon-left.jpg" /></div>
@@ -72,6 +72,13 @@ ini_set('display_errors','On');
             <li class="selector"></li>
             <li class="btn next fa fa-arrow-right"></li>
         </ul>
+
+        <!--PLACEHOLDER-->
+        <div style="height: 100%;"></div>
+
+        <div class="sÜs">
+            Hallo
+        </div>
     </div>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
