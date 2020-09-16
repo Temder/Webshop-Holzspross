@@ -68,3 +68,18 @@
     });
 
 })(this, document, jQuery);
+
+
+
+
+document.onkeypress = function(e) {
+    e = e || window.event;
+
+    if (e.keyCode == 13) {
+        //document.documentElement.classList.toggle('dark-mode');
+        //document.getElementsByClassName('background').classList.toggle('dark-mode');
+        document.querySelectorAll('.dark-modeToggle').forEach((element) => {
+            element.classList.toggle('dark-mode')
+        });
+    }
+}

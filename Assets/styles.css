@@ -1,3 +1,10 @@
+/* Darkmode */
+
+.dark-mode {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+
 /* Text, Farben und Bilder */
 
 .kÜs {
@@ -8,13 +15,22 @@
 .sÜs {
     text-align: center;
     font-size: 100px;
-    color: rgb(102, 59, 15);
+    color: rgb(143, 116, 88);
     position: relative;
     z-index: 3;
 }
 
 .hintergrund {
     background-color: rgb(203, 240, 202);
+}
+
+#background {
+    background-color: rgb(203, 240, 202);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
 }
 
 #treeSide {
@@ -43,7 +59,8 @@ a {
     position: absolute;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 
 #slides {
