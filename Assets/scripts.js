@@ -39,7 +39,7 @@
 
         $slides = $('.slide');
         $selectors = $('.selector');
-        $btns = $('.btn');
+        $btns = $('.btnSS');
 
         $slides.first().addClass('active');
         $selectors.first().addClass('current');

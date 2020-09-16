@@ -5,17 +5,18 @@
     <title>Holzspross</title>
     <meta charset="Utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="Bilder/Terraria.ico" />
     <link type="text/css" href="Assets/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+    <link rel="shortcut icon" href="Bilder/Terraria.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div id="background" class="dark-modeToggle"></div>
-    <img id="treeSide" src="Bilder/treeLeft.png">
+    <img id="treeSide" class="dark-modeToggle" src="Bilder/treeLeft.png">
 
     <div id="container">
         <ul id="slides">
@@ -46,38 +47,42 @@
             </li>
         </ul>
         <ul id="slide-select">
-            <li class="btn prev fa fa-arrow-left"></li>
+            <li class="btnSS prev fa fa-arrow-left"></li>
             <li class="selector"></li>
             <li class="selector"></li>
             <li class="selector"></li>
             <li class="selector"></li>
             <li class="selector"></li>
-            <li class="btn next fa fa-arrow-right"></li>
+            <li class="btnSS next fa fa-arrow-right"></li>
         </ul>
     </div>
 
-    <br/><br/>
-
-    <div class="nav">
+    <div class="nav dark-modeToggle">
         <a class="navA1 navAll" href="index.php">START</a>
         <a class="navA2 navAll" href="">KÜCHE</a>
         <a class="navA3 navAll" href="">SCHALEN & TELLER</a>
         <a class="navA4 navAll" href="Katalog.php">KATALOG</a>
     </div>
 
-    <h1 class="sÜs dark-modeToggle">Holzspross</h1>
+    <img class="sÜs dark-modeToggle" src="Bilder/Überschrift.png">
 
-    <br/><br/>
+    <!--Placeholder-->
+    <div style="height: 750px;"></div>
 
+    <br/>
 
-    <div class="container">
-        <div class="sÜs">
-            Hallo
+    <div class="d-flex flex-column justify-content-center dark-modeToggle" style="position: relative; width: 100%; text-align: center;">
+        <div class="p-2" style="font-size: 50px;">
+            Wir sind Holzspross
+        </div>
+        <div class="p-2" style="font-size: 17px;">
+            In unserem online-Shop finden Sie Produkte aus Holz, da wir nachhaltige Artikel für die Zukunft verkaufen.<br/> Holz ist unsere Überzeugung und fühlt sich super an.<br/> Schau Sie selbst und lassen Sie sich begeistern!
         </div>
     </div>
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-    <script src="Assets/css/bootstrap.min.css"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="scripts.js"></script>
 </body>
 
