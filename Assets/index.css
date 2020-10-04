@@ -97,7 +97,7 @@ body::-webkit-scrollbar {
     height: auto;
     z-index: 3;
     pointer-events: none;
-    transition: 0.1s;
+    transition: 0.01s;
 }
 
 
@@ -190,45 +190,46 @@ li a:hover {
 
 .navVOC {
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
     font-size: 30px;
     z-index: 9;
     color: white;
 }
 
 .sidenav {
+    position: fixed;
     height: 100%;
     width: 0;
-    position: fixed;
     z-index: 10;
     top: 0;
     left: 0;
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(180, 180, 180);*/
+    background-image: url('Bilder/treeLeftNav.png');
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    font-family: "Lato", sans-serif;
 }
 
 .sidenav a {
+    width: 22%;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #000000;
+    color: #131313;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: #b3b3b3;
+    color: #747474;
 }
 
-.sidenav .closebtn {
+.closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    top: 20;
+    left: 80vw;
 }
 
 @media screen and (max-height: 450px) {
@@ -244,12 +245,15 @@ li a:hover {
 /* Display Größe */
 
 @media screen and (min-width: 300px) {
-    /* upright */
+    /* narrow */
     .klÜs {
         margin-left: 0px;
     }
     .nav {
         display: none;
+    }
+    .navVOC {
+        display: block;
     }
     .picGr1 {
         margin-left: 0px;
@@ -272,12 +276,15 @@ li a:hover {
 }
 
 @media screen and (min-width: 850px) {
-    /* rotated */
+    /* wide */
     .klÜs {
         margin-left: 100px;
     }
     .nav {
         display: block;
+    }
+    .navVOC {
+        display: none;
     }
     .picGr1 {
         margin-left: 50px;
