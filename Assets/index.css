@@ -82,6 +82,11 @@ body::-webkit-scrollbar {
     font-size: clamp(20px, 3vw, 25px);
 }
 
+.txGr1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #background {
     background-color: rgb(203, 240, 202);
     position: fixed;
@@ -190,11 +195,23 @@ li a:hover {
 
 .navVOC {
     position: fixed;
+    width: 40px;
+    height: 40px;
     top: 20px;
     left: 20px;
     font-size: 30px;
+    background-color: rgb(203, 240, 202);
+    text-align: center;
+    line-height: 37.5px;
+    color: #131313;
+    border: 2px solid rgb(161, 194, 160);
+    border-radius: 25px;
     z-index: 9;
-    color: white;
+    transition: 0.3s;
+}
+
+.navVOC:hover {
+    color: #646464;
 }
 
 .sidenav {
@@ -207,14 +224,14 @@ li a:hover {
     /*background-color: rgb(180, 180, 180);*/
     background-image: url('Bilder/treeLeftNav.png');
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.75s;
     padding-top: 60px;
     font-family: "Lato", sans-serif;
 }
 
 .sidenav a {
-    width: 22%;
-    padding: 8px 8px 8px 32px;
+    width: 20%;
+    padding: 8px 8px 8px 15px;
     text-decoration: none;
     font-size: 25px;
     color: #131313;
@@ -223,7 +240,7 @@ li a:hover {
 }
 
 .sidenav a:hover {
-    color: #747474;
+    color: #646464;
 }
 
 .closebtn {
